@@ -8,12 +8,9 @@ import ListPage from "../ListPage";
 import { Button, Input, Text } from "../../components";
 
 const HomePage = () => {
-  const [search, setSearch] = React.useState(false)
   
-  const {setSearchInput} = useSearchContext
-  // const onSearch = () => {
-  //   const result = BOOK.filter((value)=> value.tolowerCase.inl)
-  // }
+  const {setSearchInput,onSearch} = useSearchContext()
+
 
   return (
     <>
@@ -38,11 +35,11 @@ const HomePage = () => {
           color="gray_900"
           size="xs"
           variant="fill"
-          onClick={() => setSearch(!search)}
+          onClick={onSearch}
         >
           search
         </Button>
-        {search && <ListPage />}
+       <ListPage />
         <Footer />
       </div>
     </>
