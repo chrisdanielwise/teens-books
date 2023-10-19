@@ -1,14 +1,8 @@
-import './App.css'
+import Routes from "./Routes";
 
 function App() {
-  
+  return <Routes />
 
-  return (
-    <>
-      <div>Hello world</div>
-      
-    </>
-  )
 }
 
-export default App
+export default App;

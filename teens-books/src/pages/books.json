@@ -1,0 +1,163 @@
+[
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Secret Adventures of Teen Detectives",
+      "description": "Join a group of adventurous teenagers as they solve mysteries and uncover secrets in their small town.",
+      "price": "N 5000",
+      "seller": "Jumia",
+      "readMoreLink": "https://example.com/read-more1"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "A Journey Through Time: Historical Tales for Teens",
+      "description": "Travel back in time with these captivating historical stories that transport teenage readers to different eras.",
+      "price": "N 5500",
+      "seller": "Amazon",
+      "readMoreLink": "https://example.com/read-more2"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Unlikely Hero: A Teen's Quest",
+      "description": "Follow the journey of an ordinary teenager who discovers extraordinary powers and becomes a hero.",
+      "price": "N 4800",
+      "seller": "Bookstore X",
+      "readMoreLink": "https://example.com/read-more3"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teenage Wizards and the Enchanted Realm",
+      "description": "Embark on a magical adventure as teenage wizards explore an enchanting realm filled with spells and creatures.",
+      "price": "N 5200",
+      "seller": "Readers' Haven",
+      "readMoreLink": "https://example.com/read-more4"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Beyond the Stars: Teenagers in Outer Space",
+      "description": "Teen astronauts venture beyond our planet, discovering the wonders and challenges of space.",
+      "price": "N 5300",
+      "seller": "Barnes & Noble",
+      "readMoreLink": "https://example.com/read-more5"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teen Detectives: The Case of the Missing Artifact",
+      "description": "Join a group of teenage detectives as they solve puzzling mysteries and recover stolen artifacts.",
+      "price": "N 4900",
+      "seller": "BookWorld",
+      "readMoreLink": "https://example.com/read-more6"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Chronicles of Teen Magicians",
+      "description": "Discover a world of magic and spells as a group of teenage magicians confront dark forces and protect their realm.",
+      "price": "N 5400",
+      "seller": "BookTopia",
+      "readMoreLink": "https://example.com/read-more7"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teen Explorers: Lost in the Jungle",
+      "description": "Join a team of teenage explorers as they embark on a jungle adventure filled with discovery and danger.",
+      "price": "N 5100",
+      "seller": "ReadZone",
+      "readMoreLink": "https://example.com/read-more8"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Starship Teens: Guardians of the Galaxy",
+      "description": "Teenage heroes unite to protect the galaxy from interstellar threats in this epic space adventure.",
+      "price": "N 5800",
+      "seller": "BookQuest",
+      "readMoreLink": "https://example.com/read-more9"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teenage Time Travelers: The Temporal Chronicles",
+      "description": "Follow a group of teenage time travelers as they journey through history and face temporal challenges.",
+      "price": "N 5700",
+      "seller": "BookBazaar",
+      "readMoreLink": "https://example.com/read-more10"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Secret Adventures of Teen Detectives",
+      "description": "Join a group of adventurous teenagers as they solve mysteries and uncover secrets in their small town.",
+      "price": "N 5000",
+      "seller": "Jumia",
+      "readMoreLink": "https://example.com/read-more11"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "A Journey Through Time: Historical Tales for Teens",
+      "description": "Travel back in time with these captivating historical stories that transport teenage readers to different eras.",
+      "price": "N 5500",
+      "seller": "Amazon",
+      "readMoreLink": "https://example.com/read-more12"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Unlikely Hero: A Teen's Quest",
+      "description": "Follow the journey of an ordinary teenager who discovers extraordinary powers and becomes a hero.",
+      "price": "N 4800",
+      "seller": "Bookstore X",
+      "readMoreLink": "https://example.com/read-more13"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teenage Wizards and the Enchanted Realm",
+      "description": "Embark on a magical adventure as teenage wizards explore an enchanting realm filled with spells and creatures.",
+      "price": "N 5200",
+      "seller": "Readers' Haven",
+      "readMoreLink": "https://example.com/read-more14"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Beyond the Stars: Teenagers in Outer Space",
+      "description": "Teen astronauts venture beyond our planet, discovering the wonders and challenges of space.",
+      "price": "N 5300",
+      "seller": "Barnes & Noble",
+      "readMoreLink": "https://example.com/read-more15"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teen Detectives: The Case of the Missing Artifact",
+      "description": "Join a group of teenage detectives as they solve puzzling mysteries and recover stolen artifacts.",
+      "price": "N 4900",
+      "seller": "BookWorld",
+      "readMoreLink": "https://example.com/read-more16"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Chronicles of Teen Magicians",
+      "description": "Discover a world of magic and spells as a group of teenage magicians confront dark forces and protect their realm.",
+      "price": "N 5400",
+      "seller": "BookTopia",
+      "readMoreLink": "https://example.com/read-more17"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teen Explorers: Lost in the Jungle",
+      "description": "Join a team of teenage explorers as they embark on a jungle adventure filled with discovery and danger.",
+      "price": "N 5100",
+      "seller": "ReadZone",
+      "readMoreLink": "https://example.com/read-more18"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "The Starship Teens: Guardians of the Galaxy",
+      "description": "Teenage heroes unite to protect the galaxy from interstellar threats in this epic space adventure.",
+      "price": "N 5800",
+      "seller": "BookQuest",
+      "readMoreLink": "https://example.com/read-more19"
+    },
+    {
+      "image": "https://img.freepik.com/premium-psd/book-cover-design-corporate-annual-report-template_510319-467.jpg",
+      "title": "Teenage Time Travelers: The Temporal Chronicles",
+      "description": "Follow a group of teenage time travelers as they journey through history and face temporal challenges.",
+      "price": "N 5700",
+      "seller": "BookBazaar",
+      "readMoreLink": "https://example.com/read-more20"
+    }
+  ]
+  
