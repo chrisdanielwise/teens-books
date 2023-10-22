@@ -1,13 +1,14 @@
 import React from "react";
-import BOOKS from "../../pages/books.json"
+// import BOOKS from "../../pages/books.json"
 import { Button, Img, Text } from "../../components";
 import { useSearchContext } from "../../context/searchContext";
-
 const ListPage = () => {
-
-  const {searchInput,filtered} = useSearchContext()
+  const {searchInput,filtered,getData} = useSearchContext()
   const [loadMore,setLoadMore] = React.useState(5)
   // const filterdBooks =  BOOKS.filter((val) => val.title.toLowerCase().includes(searchInput.toLowerCase()))
+  // Make a GET request
+
+
 
   return (
     <>
@@ -40,7 +41,7 @@ const ListPage = () => {
         <div className="overflow-auto w-[84%] gap-4 flex flex-col ">
         
           { filtered === 0 ? (
-            BOOKS.slice(0, loadMore).map((val,id) => {
+            getData.slice(0, loadMore).map((val,id) => {
               
               const {image,description,price,title,seller,readMoreLink} = val
               return (
