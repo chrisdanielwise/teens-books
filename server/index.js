@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const port = process.env.PORT || 8080; // Use the PORT environment variable if available
+const PORT = process.env.PORT || 8080; // Use the PORT environment variable if available
 const teensBooks = require("./routes/teensBooks");
 const data = require("../teens-books/src/pages/books.json");
 // const Book = require('./model/Books'); // Import your Mongoose model
@@ -48,6 +48,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: "Internal Server Error" });
 });
 
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
 });

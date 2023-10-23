@@ -10,7 +10,7 @@ export const SearchProvider = ({ children }) => {
 
   useEffect(() => {
     // Make a GET request when the component is mounted
-    axios.get("http://localhost:8080/api/teensBooks/books")
+    axios.get("https://teenbooks-server.onrender.com/api/teensBooks/books")
       .then((response) => {
         // Handle the response data here
         setGetData(response.data);
