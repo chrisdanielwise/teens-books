@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const PORT = process.env.PORT || 8080; // Use the PORT environment variable if available
 const teensBooks = require("./routes/teensBooks");
 const data = require("../teens-books/src/pages/books.json");
-// const Book = require('./model/Books'); // Import your Mongoose model
+const Book = require('./model/Books'); // Import your Mongoose model
 
 dotenv.config();
 mongoose.set("strictQuery", false);
@@ -20,16 +20,16 @@ mongoose
     console.log("DB Connected Successfully!");
 
 // Create a new book document and save it to the database
-//     data.forEach((item) => {
-//       const newBook = new Book(item);
-//       newBook.save()
-//         .then(() => {
-//           console.log('Book added to the database.');
-//         })
-//         .catch((err) => {
-//           console.error('Error adding book to the database:', err);
-//         });
-//     });
+    // data.forEach((item) => {
+    //   const newBook = new Book(item);
+    //   newBook.save()
+    //     .then(() => {
+    //       console.log('Book added to the database.');
+    //     })
+    //     .catch((err) => {
+    //       console.error('Error adding book to the database:', err);
+    //     });
+    // });
   })
   .catch((err) => {
     console.error("DB Connection Error", err);

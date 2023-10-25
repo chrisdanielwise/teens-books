@@ -12,9 +12,9 @@ const ListPage = () => {
 
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
+      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full ">
         <Text
-          className="capitalize mt-[125px] text-2xl sm:text-[20px] md:text-[25px] text-black-900_b2"
+          className="capitalize mt-[125px] md:mt-5 text-2xl sm:text-[20px] md:text-[25px] text-black-900_b2 "
           size="txtInterMedium30"
         >
           showing result for {searchInput}
@@ -27,7 +27,7 @@ const ListPage = () => {
             Result
           </Text>
         </div>
-        <ul className="flex outline bg-gray-900 text-white-A700 py-2 w-[84%] justify-between">
+        <ul className="flex outline bg-gray-900 text-white-A700 py-2 w-[84%] justify-between sm:hidden">
           <li className="flex justify-around w-[35%]">
             <span>Image</span>
             <span>Description</span>
@@ -45,22 +45,22 @@ const ListPage = () => {
               
               const {image,description,price,title,seller,readMoreLink} = val
               return (
-                <div className={`flex  justify-evenly py-3  h-[160px] ${id%2 === 0 ? "bg-gray-950":""}`  } key={id}>
-                  <div className="flex w-[60%] gap-5">
+                <div className={`flex  justify-evenly py-3 h-[160px] md:h-[200px] ${id%2 === 0 ? "bg-gray-950":""}`  } key={id}>
+                  <div className="flex w-[60%]   gap-5">
                     <Img src={image} alt=""
-                      className="w-[20%] max-h-[150px] object-contain"
+                      className="w-[20%]  max-h-[150px] object-contain"
                     />
-                    <div className=" flex flex-col mt-4 gap-4">
-                      <h3 className="text-[#000] font-bold">{title}</h3>
-                      <p>{description}</p>
+                    <div className=" flex flex-col mt-4 sm:m-0 gap-4">
+                      <h3 className="text-[#000] font-bold sm:text-md">{title}</h3>
+                      <p className="text-sm">{description.substring(0,55)}...</p>
                       <a href={readMoreLink}>Read More</a>
                     </div>
                   </div>
-                  <ul className="w-[25%] flex justify-between items-center  h-[25%] flex-wrap">
-                    <li className="">{price}</li>
-                    <li>{seller}</li>
+                  <ul className="w-[25%] flex justify-between items-center   h-[25%] sm:h-full flex-wrap">
+                    <li className="sm:text-md">{price}</li>
+                    <li className="sm:text-md">{seller}</li>
                     <Button
-                      className="capitalize cursor-pointer  font-inter  h-[40px]  text-center"
+                      className="capitalize cursor-pointer  h-[40px] sm:h-[20px]  text-sm md:pt-0 p-3 text-center"
                       shape="round"
                       color="orange_700"
                       size="xs"
@@ -75,22 +75,22 @@ const ListPage = () => {
               
               const {image,description,price,title,seller,readMoreLink} = val
               return (
-                <div className={`flex  justify-evenly py-3  h-[160px] ${id%2 === 0 ? "bg-gray-950":""}`  } key={id}>
-                  <div className="flex w-[60%] gap-5">
+                <div className={`flex  justify-evenly py-3 h-[160px] md:h-[200px] ${id%2 === 0 ? "bg-gray-950":""}`  } key={id}>
+                  <div className="flex w-[60%]   gap-5">
                     <Img src={image} alt=""
-                      className="w-[20%] max-h-[150px] object-contain"
+                      className="w-[20%]  max-h-[150px] object-contain"
                     />
-                    <div className=" flex flex-col mt-4 gap-4">
-                      <h3 className="text-[#000] font-bold">{title}</h3>
-                      <p>{description}</p>
+                    <div className=" flex flex-col mt-4 sm:m-0 gap-4">
+                      <h3 className="text-[#000] font-bold sm:text-md">{title}</h3>
+                      <p className="text-sm">{description.substring(0,55)}...</p>
                       <a href={readMoreLink}>Read More</a>
                     </div>
                   </div>
-                  <ul className="w-[25%] flex justify-between items-center  h-[25%] flex-wrap">
-                    <li className="">{price}</li>
-                    <li>{seller}</li>
+                  <ul className="w-[25%] flex justify-between items-center   h-[25%] sm:h-full flex-wrap">
+                    <li className="sm:text-md">{price}</li>
+                    <li className="sm:text-md">{seller}</li>
                     <Button
-                      className="capitalize cursor-pointer  font-inter  h-[40px]  text-center"
+                      className="capitalize cursor-pointer  h-[40px] sm:h-[20px]  text-sm md:pt-0 p-3 text-center"
                       shape="round"
                       color="orange_700"
                       size="xs"
@@ -101,7 +101,7 @@ const ListPage = () => {
                 
                 )
               }))}
-            <Button className="bg-orange-700 w-[20%] mx-auto py-5 rounded-full"
+            <Button className="bg-orange-700 w-[20%] md:w-[80%] mx-auto py-5 rounded-full mt-5"
             onClick={()=> setLoadMore((prev)=> prev + 5)}
             >Load More</Button>
         </div>

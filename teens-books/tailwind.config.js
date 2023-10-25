@@ -8,7 +8,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
   ],
   theme: {
-    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    screens: { md: { max: "1050px" }, sm: { max: "460px" } },
     extend: {
       colors: {
         black: { 900: "#000000", "900_b2": "#000000b2", "900_e5": "#000000e5" },

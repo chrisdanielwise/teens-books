@@ -19,7 +19,7 @@ const Header = (props) => {
           About Us
         </Text>
         <Text
-          className="capitalize  text-lg text-white-A700 mr-[120px]"
+          className="capitalize  text-lg text-white-A700 mr-[120px] sm:m-0"
           size="txtInterRegular18"
         >
           contact Us

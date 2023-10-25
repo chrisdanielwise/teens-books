@@ -14,8 +14,8 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto  w-full">
-        <Header className="bg-gray-900 flex sm:flex-col flex-row sm:gap-5 items-center justify-around md:p-5 w-full  h-[80px]" />
+      <div className="bg-white-A700 flex flex-col  font-inter items-center justify-start mx-auto  w-full">
+        <Header className="bg-gray-900 flex  items-center justify-around sm:justify-between outline md:p-5 w-full h-[80px]" />
         <Text
           className="capitalize mt-[50px] text-3xl sm:text-[26px] md:text-[28px] text-black-900_b2"
           size="txtInterMedium30"
