@@ -23,7 +23,7 @@ const HomePage = () => {
           search for item 
         </Text>
         <Input
-          className="common-pointer capitalize cursor-pointer font-light h-[30px] mt-4 w-[70vw] text-base text-center "
+          className="common-pointer capitalize cursor-pointer sm:m-0  font-light h-[30px] mt-4 w-[70vw] text-base text-center "
           type="text"
           color="black_900"
           placeholder="enter search item"
